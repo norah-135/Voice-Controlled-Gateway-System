@@ -1,8 +1,8 @@
 #include <WiFiS3.h>
 #include <ArduinoJson.h>
 
-const char* ssid = "Nader-4G";
-const char* password = "00447711";
+const char* ssid = "";
+const char* password = "";
 
 WiFiServer localServer(80);
 const int ledPin = 5;
