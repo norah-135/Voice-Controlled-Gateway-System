@@ -3,11 +3,11 @@
 #include <ArduinoJson.h>
 #include <driver/i2s.h>
 
-const char* ssid = "Nader-4G";
-const char* password = "00447711";
-const char* serverHost = "norah135.pythonanywhere.com"; 
+const char* ssid = "";
+const char* password = "";
+const char* serverHost = "(yourServer).pythonanywhere.com"; 
 
-const char* arduinoAddress = "http://192.168.1.107"; 
+const char* arduinoAddress = "http://192.168.x.xxx"; 
 
 #define I2S_SD 25 
 #define I2S_WS 26
